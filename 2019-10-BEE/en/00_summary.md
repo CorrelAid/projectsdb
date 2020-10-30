@@ -1,6 +1,0 @@
-In the BeeObserver project, CorrelAid volunteers from the local chapters in Frankfurt and Bremen support the citizen science project BeeObserver which is organized by the platform *[Bürger schaffen Wissen](https://www.buergerschaffenwissen.de/en)* (en: *citizens create knowledge*). 
-
-The project uses data collected via IoT sensors in bee hives. So far, the CorrelAid team has played a critical part in analyzing the data and building machine learning models to detect data quality issues and to model the behaviour of the bee hives. More specifically, the volunteers have worked on building both unsupervised and supervised anomaly detection models that can be used to detect when bee hives experience a critical situation. 
-
-The results from the project are impactful for research and advocacy: 
-CorrelAid volunteers from the team are co-authors for a scientific paper titled "Unsupervised Anomaly Detection on MultisensoryData from Honey Bee Colonies" that will be presented at the "ICDM 2020 : 20th IEEE International Conference on Data Mining". At the same time, insights from the project and the resulting research can be used for political activism, i.e. to bring attention to the importance of the bee and to lobby for improving conservation efforts.
