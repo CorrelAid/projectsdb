@@ -1,0 +1,71 @@
+{
+    "project_id": "EXA-10-1999",
+    "project_id_path": "1999-10-EXA",
+    "published": false,
+    "title": {
+        "de": "title that will appear on the website",
+        "en": "title that will appear on the website"
+    },
+    "start": "1999-10",
+    "end": "1970-10",
+    "repo": {
+        "url": "github url",
+        "public": false
+    },
+    "links": {
+        "en": [
+            "you can add markdown here like 'this is the [CorrelAid website](https://correlaid.org)'",
+            "you can add markdown here like 'this is the [CorrelAid website](https://correlaid.org)'"
+        ],
+        "de": [
+            "you can add markdown here like 'this is the [CorrelAid website](https://correlaid.org)'",
+            "you can add markdown here like 'this is the [CorrelAid website](https://correlaid.org)'"
+        ]
+    },
+    "organization": {
+        "name": "",
+        "website": "",
+        "about": {
+            "de": {
+                "text": "actual description - please copy from 00_about.md for now",
+                "source": "markdown describing the source (if applicable)"
+            },
+            "en": {
+                "text": "actual description - please copy from 00_about.md for now",
+                "source": "markdown describing the source (if applicable) - if translated from German original source write 'translated from [url]()'"
+            }
+        }
+    },
+    "description": {
+        "en": {
+            "summary": "do not fill in - will be automatically injected from 00_summary.md",
+            "about": "do not fill in - will be automatically injected from 00_about.md",
+            "problem": "do not fill in - will be automatically injected from 01_problem.md",
+            "data": "do not fill in - will be automatically injected from 02_data.md",
+            "approach": "do not fill in - will be automatically injected from 03_approach.md",
+            "impact": "do not fill in - will be automatically injected from 04_impact.md"
+        },
+        "de": {
+            "summary": "do not fill in - will be automatically injected from 00_summary.md",
+            "about": "do not fill in - will be automatically injected from 00_about.md",
+            "problem": "do not fill in - will be automatically injected from 01_problem.md",
+            "data": "do not fill in - will be automatically injected from 02_data.md",
+            "approach": "do not fill in - will be automatically injected from 03_approach.md",
+            "impact": "do not fill in - will be automatically injected from 04_impact.md"
+        }
+    },
+    "team": [
+        {
+            "first_name": "",
+            "last_name": "",
+            "github": "github username",
+            "twitter": "twitter username",
+            "linkedin": "full linkedin url",
+            "website": "full website url",
+            "email": "",
+            "pgp": "public pgp key"
+        }
+    ],
+    "year": 1999
+}
+

@@ -1,0 +1,5 @@
+The data basis consists of many different, oftentimes manually collected and researched sources. These include, among others, the World Bank, the International Monetary Fond, the CIA World Factbook, the government websites of different countries as well as newspaper articles. All information was carefully researched and collected in an excel sheet.
+​
+
+Based on this data, different debt indicators (e.g., public debt relative to state revenue or foreign debt relative to GDP) were calculated that categorize countries in different debt categories. These categories are the fundamental aspect of the annual debt report and are used to color the static world map. Previously, the erlassjahr team used Adobe Indesign to color each country individually according to their aggregated debt level in a process that consumed a lot of time.
+​

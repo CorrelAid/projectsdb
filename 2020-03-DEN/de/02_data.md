@@ -1,0 +1,1 @@
+Die Daten wurden im Rahmen des Projekts mit einer Umfrage erhoben (weitere Details siehe unten). Zusätzlich zu den Umfragedaten nutzte das CorrelAid Team für die Region verfügbare offene Daten vom Statistischen Informationssystem Berlin-Brandenburg ([StatIS-BBB](https://www.statistik-berlin-brandenburg.de/regionales/inhalt-regionales.asp)).

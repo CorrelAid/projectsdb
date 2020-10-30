@@ -1,0 +1,1 @@
+Data were collected as part of the project with a survey (more details below). In addition to the survey data, the CorrelAid team made use of Open Data available for the region from the Statistical Information System Berlin-Brandenburg ([StatIS-BBB](https://www.statistik-berlin-brandenburg.de/regionales/inhalt-regionales.asp)).

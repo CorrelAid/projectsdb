@@ -1,0 +1,82 @@
+{
+  "project_id": "ERL-03-2020",
+  "project_id_path": "2020-03-ERL",
+  "published": true,
+  "title": {
+    "de": "Interaktives Dashboard zur besseren Darstellung von Verschuldungsdaten",
+    "en": "Making debt reduction advocay more engaging with an interactive dashboard"
+  },
+  "year": 2020,
+  "start": "2020-03",
+  "end": "2020-08",
+  "repo": {
+    "url": "https://github.com/CorrelAid/erlassjahr/",
+    "public": true
+  },
+  "links": {
+    "en": [
+      "[Interactive Dashboard](https://erlassjahr.de/informieren/karte-ueberschuldete-staaten-weltweit/) on the page of Erlassjahr e.V."
+    ],
+    "de": [
+      "[Interaktives Dashboard](https://erlassjahr.de/informieren/karte-ueberschuldete-staaten-weltweit/) auf der Seite von Erlassjahr e.V."
+    ]
+  },
+  "organization": {
+    "name": "Erlassjahr e.V.",
+    "website": "https://erlassjahr.de",
+    "about": {
+      "de": {
+        "text": "",
+        "source": "[Quelle](https://erlassjahr.de/ueber-uns/)"
+      },
+      "en": {
+        "text": "",
+        "source": "[Source](https://erlassjahr.de/en/about-us/)"
+      }
+    }
+  },
+  "description": {
+    "en": {
+      "summary": "injected from 00_summary.md",
+      "problem": "injected from 01_problem.md",
+      "data": "injected from 02_data.md",
+      "approach": "injected from 03_approach.md",
+      "impact": "injected from 04_impact.md"
+    },
+    "de": {
+      "summary": "injected from 00_summary.md",
+      "problem": "injected from 01_problem.md",
+      "data": "injected from 02_data.md",
+      "approach": "injected from 03_approach.md",
+      "impact": "injected from 04_impact.md"
+    }
+  },
+  "team": [
+    {
+      "first_name": "Dennis",
+      "last_name": "Hammerschmidt",
+      "github": "dennis-hammerschmidt",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/dennis-hammerschmidt/",
+      "website": "http://dennis-hammerschmidt.rbind.io"
+    },
+    {
+      "first_name": "Antonia",
+      "last_name": "Scherz",
+      "github": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/antonia-scherz-7b4740178/",
+      "website": ""
+    },
+    {
+      "first_name": "Jonathan",
+      "last_name": "Sauer",
+      "github": "",
+      "twitter": "",
+      "linkedin": "",
+      "website": "",
+      "email": "contact@jonathansauer.de",
+      "pgp": "-----BEGIN PGP PUBLIC KEY BLOCK-----\nmDMEX18aHBYJKwYBBAHaRw8BAQdAbCl6uW7PYvHWSbzLYPBFlvnGae07veaHulzb\nEBBWvYO0KUpvbmF0aGFuIFNhdWVyIDxjb250YWN0QGpvbmF0aGFuc2F1ZXIuZGU+\niJYEExYIAD4WIQTIWzN3G55bGDBbu7TFTcB9xs2l8wUCX18aHAIbAwUJCWYBgAUL\nCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRDFTcB9xs2l84isAQDcbPNWalU4Aw3U\ntvjWEd8joivskmszapvS8WSAQbR1vAEAgU6YxHgQei40o8XfMQpoofKP3suo9+qB\n5j0G5J2x8g+4OARfXxocEgorBgEEAZdVAQUBAQdAOE4Ns091Jj6G5+24/aB/+sla\nF0+gqFDEROdp2YyDvScDAQgHiH4EGBYIACYWIQTIWzN3G55bGDBbu7TFTcB9xs2l\n8wUCX18aHAIbDAUJCWYBgAAKCRDFTcB9xs2l83kLAP9U+PCAYegCK2UsuBkqohXF\n75UDn0H3gjJL9YHsH4nzzwEA8eeRtdrci7XkakwY1ljdV2kY+xY3zVfC5qByfxLu\nyAI=\n=X0Bf\n-----END PGP PUBLIC KEY BLOCK-----"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Das Projekt hatte zwei Effekte: Zum einen deuteten die Umfrageergebnisse darauf hin, dass generell ein großes Interesse bei allen Befragten besteht, sowohl in der Bevölkerung als auch bei den relevanten Stakeholdern. Dieses Ergebnis gibt nicht nur allen Mitgliedern des Denk-Mal-Kultur Teams für die Praxisforschungsstelle einen Motivationsschub, sondern erleichtert auch die Ansprache von Ministerien und anderen potenziellen Förderern bei Fundraising-Aktivitäten. 
+
+
+Zweitens erleichtern die Umfrageergebnisse dem Denk-Mal-Kultur Team die Priorisierung der Aktivitäten nach Interesse und möglicher Unterstützung durch lokale Interessenvertreter:innen. Kurz gesagt, sie bietet eine solide, nutzerorientierte Grundlage für zukünftige Aktivitäten, die auf den Aufbau der Akademie für selbstbestimmtes Altwerden und der Praxisforschungsstelle abzielen.

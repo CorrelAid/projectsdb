@@ -1,0 +1,4 @@
+Als bisherige Datengrundlage für die Erstellung des Schuldenreports dienten eine Vielzahl von unterschiedlichen und oftmals manuell erarbeiteten Quellen. Dazu zählen unter anderem die Weltbank, der Internationale Währungsfond, CIA World Factbook, die Regierungsseiten der Länder oder auch Artikel in der (Finanz-)Presse. Alle Informationen werden in einer Excel-Tabelle gesammelt.
+
+
+Diese Rohdaten bilden die Berechnungsgrundlage für verschiedene Schuldenindikatoren (z.B. öffentliche Schulden relativ zu den Staatseinnahmen oder der Auslandsschuldenstand im Verhältnis zum BIP), durch die Länder in bestimmte Verschuldungskategorien einteilt werden. Diese Kategoriesierung wird im Herzstück des jährlichen Schuldenreports anhand einer Weltkarte dargestellt. Bisher wurde hierfür jedes einzelne Land in Adobe Indesign entsprechend ihrer Verschuldungskategorie eingefärbt und konnte somit nur den aggregierten Schuldenstand aus allen Schuldenindikatoren grafisch abbilden.

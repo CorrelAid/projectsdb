@@ -1,0 +1,89 @@
+{
+  "project_id": "WEL-06-2019",
+  "project_id_path": "2019-06-WEL",
+  "title": {
+    "de": "Automatisierte Reportgenerierung zur Verbesserung der Arbeit der Weltläden",
+    "en": "Automating report generation to improve the work of World Shops"
+  },
+  "year": 2019,
+  "start": "2019-06",
+  "end": "2020-02",
+  "published": true,
+  "repo": {
+    "url": "https://github.com/CorrelAid/weltladen",
+    "public": false
+  },
+  "links": {
+    "en": [
+      "[Podcast episode](https://soundcloud.com/correlaid_podcast/about-correlaid-automatisierte-reportgenerierung-fur-die-weltladen) about the project (in German)"
+    ],
+    "de": [
+      "[Podcast-Episode](https://soundcloud.com/correlaid_podcast/about-correlaid-automatisierte-reportgenerierung-fur-die-weltladen) über das Projekt"
+    ]
+  },
+  "organization": {
+    "name": "Weltladen Dachverband",
+    "website": "https://www.weltladen.de/",
+    "about": {
+      "de": {
+        "text": "",
+        "source": "[Quelle](https://www.weltladen.de/weltladen-dachverband/)"
+      },
+      "en": {
+        "text": "",
+        "source": "translated from [here](https://www.weltladen.de/weltladen-dachverband/)"
+      }
+    }
+  },
+  "description": {
+    "en": {
+      "summary": "injected from 00_summary.md",
+      "problem": "injected from 01_problem.md",
+      "data": "injected from 02_data.md",
+      "approach": "injected from 03_approach.md",
+      "impact": "injected from 04_impact.md"
+    },
+    "de": {
+      "summary": "injected from 00_summary.md",
+      "problem": "injected from 01_problem.md",
+      "data": "injected from 02_data.md",
+      "approach": "injected from 03_approach.md",
+      "impact": "injected from 04_impact.md"
+    }
+  },
+  "team": [
+    {
+      "first_name": "Gideon",
+      "last_name": "May",
+      "github": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/gideon-may-248790151/",
+      "website": "",
+      "xing": "https://www.xing.com/profile/Gideon_May2/cv"
+    },
+    {
+      "first_name": "Johannes",
+      "last_name": "Rabenschlag",
+      "github": "jrabensc",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/jrabensc/",
+      "website": ""
+    },
+    {
+      "first_name": "Raphael",
+      "last_name": "Riege",
+      "github": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/raphael-riege-aa15a914b/",
+      "website": ""
+    },
+    {
+      "first_name": "Stefan",
+      "last_name": "Boschenriedter",
+      "github": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/stefan-boschenriedter-5417a2134/",
+      "website": ""
+    }
+  ]
+}

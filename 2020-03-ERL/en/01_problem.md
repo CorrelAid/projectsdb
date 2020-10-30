@@ -1,0 +1,8 @@
+erlassjahr.de advocates for fair and transparent debt relief processes worldwide. Similar to other NGOs, the interaction with interested users beyond their web presence is challenging. Until now, research efforts and results on states' debt situation were published in an annual report that featured a static PDF map that visualizes the debt situation worldwide.
+
+
+The process of collecting and processing the data as well as the creation of the world map was hard work. All information needed to be gathered from different sources and were copy-pasted into an excel sheet. This excel sheet was the basis for the world map where each state was manually colored based on its debt situation. Naturally, a lot of time and effort went into getting the data and processing it further to illustrate a static map with many small and detailed steps that needed to be done by hand. This time and effort could be saved by automating different steps in the process, specifically by simplifying the entire data generation process and by providing a more intuitive and interactive world map. 
+
+​
+CorrelAid supported [erlassjahr.de](http://erlassjahr.de/) both in terms of an automated data generation process and the development of an [interactive web-based world map](https://erlassjahr.de/informieren/karte-ueberschuldete-staaten-weltweit/). The goal was to help the team of erlassjahr to have more time focusing on their research while increasing their public outreach to interested users using an interactive version of their annual report data and world debt map.
+​

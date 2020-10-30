@@ -1,0 +1,7 @@
+erlassjahr.de setzt sich für faire und transparente Verfahren beim Schuldenerlass weltweit ein. Wie bei vielen anderen NGOs stellt die Interaktion mit interessierten Nutzer:innen über den eigenen Webauftritt eine Herausforderung dar. Bisher wurden die Rechercheergebnisse zum Schuldenstand der Länder in einem jährlich veröffentlichten Schuldenreport publiziert und nur anhand einer statischen PDF Karte anschaulich dargestellt.
+
+
+Die Zusammenstellung der Daten und die Anfertig der Karte waren dabei mit viel Aufwand und manueller Arbeit verbunden. Die Informationen mussten aus diversen Quellen gesammelt und in eine Excel-Tabelle kopiert werden, um dann daraus eine entsprechende Karte manuell einzufärben. Diese vielen einzelne, kleinteilige und größtenteils per Hand ausgeführten Arbeitsschritte bedeuteten viel Arbeitzeit für das Team von erlassjahr - Arbeitszeit, die man einsparen kann, indem man diverse Schritte in diesem Prozess automatisiert, vereinfacht und das Endergebnis in Form einer Weltkarte interaktiver und erlebbarer gestaltet.
+
+
+CorrelAid hat [erlassjahr.de](http://erlassjahr.de/) dabei unterstützt, sowohl die Datenbeschaffung als auch die Bereitstellung der Rechercheergebnisse mit einer [interaktive Weltkarte](https://erlassjahr.de/informieren/karte-ueberschuldete-staaten-weltweit/) zu verbessern. Damit erhöht sich die Reichweite, intensiviert sich das Nutzererlebnis des Schuldenreports und der Weltkarte und erlaubt es dem Team von erlassjahr mehr Zeit für ihre individuelle Recherarbeit zu verwenden.

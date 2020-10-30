@@ -1,0 +1,63 @@
+{
+  "project_id": "ODA-11-2019",
+  "project_id_path": "2019-11-ODA",
+  "title": "Organisation der Arbeit",
+  "year": 2019,
+  "start": "1970-01",
+  "end": "1970-02",
+  "published": false,
+  "repo": {
+    "url": "",
+    "public": false
+  },
+  "links": {
+    "en": [
+      "markdown strings that will be piped through markdownify",
+      "markdown strings that will be piped through markdownify"
+    ],
+    "de": [
+      "markdown strings that will be piped through markdownify",
+      "markdown strings that will be piped through markdownify"
+    ]
+  },
+  "organization": {
+    "name": "Organisation der Arbeit",
+    "website": "https://umweltprofis.ch",
+    "about": {
+      "de": {
+        "text": "actual description",
+        "source": "link to source for description (if applicable)"
+      },
+      "en": {
+        "text": "actual description",
+        "source": "link to source for description (if applicable) - if translated from German original source write 'translated from {URL}'"
+      }
+    }
+  },
+  "description": {
+    "en": {
+      "summary": "injected from 00_summary.md",
+      "problem": "injected from 01_problem.md",
+      "data": "injected from 02_data.md",
+      "approach": "injected from 03_approach.md",
+      "impact": "injected from 04_impact.md"
+    },
+    "de": {
+      "summary": "injected from 00_summary.md",
+      "problem": "injected from 01_problem.md",
+      "data": "injected from 02_data.md",
+      "approach": "injected from 03_approach.md",
+      "impact": "injected from 04_impact.md"
+    }
+  },
+  "team": [
+    {
+      "first_name": "",
+      "last_name": "",
+      "github": "",
+      "twitter": "",
+      "linkedin": "",
+      "website": ""
+    }
+  ]
+}
