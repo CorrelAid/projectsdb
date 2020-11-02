@@ -1,6 +1,6 @@
 projectsdb
 ================
-
+![Update projects.json](https://github.com/CorrelAid/projectsdb/workflows/Update%20projects.json/badge.svg)
 [![License:
 DbCL](https://img.shields.io/badge/DbCL-Database%20Content%20License-informational)](http://opendatacommons.org/licenses/dbcl/1.0/)
 [![License:
