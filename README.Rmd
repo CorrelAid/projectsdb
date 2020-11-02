@@ -3,6 +3,9 @@ title: "projectsdb"
 output: github_document
 ---
 
+[![License: DbCL](https://img.shields.io/badge/DbCL-Database%20Content%20License-informational)](http://opendatacommons.org/licenses/dbcl/1.0/)
+[![License: ODbL](https://img.shields.io/badge/ODbL-Open%20Database%20License-blue)](http://opendatacommons.org/licenses/odbl/1.0/)
+
 
 This repository contains the temporary "database" of CorrelAid projects for which a [thorough follow-up](https://docs.correlaid.org/project-manual/project-team/what-you-do#follow-up) was done. 
 The data in this repository is used to present the projects [on our website](https://correlaid.org/projects). More specifically, the website pulls data from `projects.json`.

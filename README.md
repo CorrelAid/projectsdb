@@ -1,6 +1,11 @@
 projectsdb
 ================
 
+[![License:
+DbCL](https://img.shields.io/badge/DbCL-Database%20Content%20License-informational)](http://opendatacommons.org/licenses/dbcl/1.0/)
+[![License:
+ODbL](https://img.shields.io/badge/ODbL-Open%20Database%20License-blue)](http://opendatacommons.org/licenses/odbl/1.0/)
+
 This repository contains the temporary “database” of CorrelAid projects
 for which a [thorough
 follow-up](https://docs.correlaid.org/project-manual/project-team/what-you-do#follow-up)
@@ -202,25 +207,11 @@ all_projects <- load_projects()
 
     ## ✓ loaded data from /0000-00-EXA
 
-    ## ✓ loaded data from /2019-02-MIN
-
-    ## ✓ loaded data from /2019-06-DAP
-
-    ## ✓ loaded data from /2019-06-DAR
-
     ## ✓ loaded data from /2019-06-WEL
-
-    ## ✓ loaded data from /2019-10-BEE
-
-    ## ✓ loaded data from /2019-10-MEH
-
-    ## ✓ loaded data from /2019-11-ODA
 
     ## ✓ loaded data from /2020-03-DEN
 
     ## ✓ loaded data from /2020-03-ERL
-
-    ## ✓ loaded data from /2020-05-MYA
 
 This loads all projects and then updates `projects.json` which contains
 all projects.
@@ -232,24 +223,10 @@ update_projects_json()
 
     ## ✓ loaded data from /0000-00-EXA
 
-    ## ✓ loaded data from /2019-02-MIN
-
-    ## ✓ loaded data from /2019-06-DAP
-
-    ## ✓ loaded data from /2019-06-DAR
-
     ## ✓ loaded data from /2019-06-WEL
-
-    ## ✓ loaded data from /2019-10-BEE
-
-    ## ✓ loaded data from /2019-10-MEH
-
-    ## ✓ loaded data from /2019-11-ODA
 
     ## ✓ loaded data from /2020-03-DEN
 
     ## ✓ loaded data from /2020-03-ERL
-
-    ## ✓ loaded data from /2020-05-MYA
 
     ## ✓ updated projects.json
