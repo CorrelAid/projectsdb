@@ -4,10 +4,14 @@ on:
     branches:
       - main
       - master
+    paths-ignore:
+      - '**/README.**'
   pull_request:
     branches:
       - main
       - master
+    paths-ignore:
+      - '**/README.**'
 jobs: 
   run:
     name: Update projects.json
