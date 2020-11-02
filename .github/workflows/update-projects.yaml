@@ -36,7 +36,7 @@ jobs:
         uses: EndBug/add-and-commit@v5
         with:
           author_name: correlaid_mu
-          author_email: frie.p@correlaid.org
+          author_email: correlaid_mu@correlaid.org
           message: "update projects.json"
           add: "projects.json --force"
         env:
