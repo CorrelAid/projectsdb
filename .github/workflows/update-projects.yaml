@@ -20,13 +20,11 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
         with:
           r-version: 'release'
-      - name: Query dependencies
+      - name: install projectutils
         run: |
           install.packages('remotes')
+          remotes::install_github("CorrelAid/projectutils")
         shell: Rscript {0}
-      - name: "Install projectutils"
-        run: |
-            remotes::install_github("CorrelAid/projectutils")
       - name: Checkout repo
         uses: actions/checkout@v2
       - name: Run update function
