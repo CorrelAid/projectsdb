@@ -26,11 +26,12 @@ Each CorrelAid project has a project ID. It has three components:
   - Year in which the project started.
   - Month in which the project started.
 
-There are *two versions* of the project id: -
-{identifier}-{month}-{year}: this version is used in surveymonkey
-questionnaries - {year}-{month}-{identifier}: this version is used in
-the CorrelCloud and on GitHub because sorting by year is more
-meaningful.
+There are *two versions* of the project id:
+
+  - {identifier}-{month}-{year}: this version is used in surveymonkey
+    questionnaries
+  - {year}-{month}-{identifier}: this version is used in the CorrelCloud
+    and on GitHub because sorting by year is more meaningful.
 
 # Utility R Package
 
@@ -135,9 +136,9 @@ fs::dir_tree("2020-10-FOO")
     ## │   └── 04_impact.md
     ## └── meta.json
 
-As mentioned in the
-[template](https://pad.correlaid.org/lTV3NzFNRxGK3wrcSYIk4Q), you only
-have to create content in either German or English Fill in the files
+As mentioned in the [CodiMD
+template](https://pad.correlaid.org/lTV3NzFNRxGK3wrcSYIk4Q), you only
+have to create content in either German or English. Fill in the files
 that correspond to the four main sections of the template into
 `01_problem.md` until `04_impact.md`. In addition, there are two files:
 
@@ -150,10 +151,20 @@ The final file is `meta.json`. It is a json file where you can add
 various meta information about the project. If the descriptions in the
 json are not sufficient to understand what is required, please ask Frie.
 
+To edit the markdown and JSON files, you should use a text editor with
+decent json and markdown support. RStudio and Python IDEs like PyCharm
+should be sufficient to do this. If you want to explore some other, more
+general options, you can check out the following, more general-purpose
+text editors / IDEs:
+
+  - [VS Code](https://code.visualstudio.com/)
+  - [Atom](https://atom.io/)
+  - [Sublime](https://www.sublimetext.com/)
+
 ### `{projectutils}` helpers
 
-You can use R and `{projectutils}` to help you with the editing process
-of `meta.json`.
+As an alternative to directly editing the `meta.json` file, you can use
+R and `{projectutils}` to help you with the editing process.
 
 You can load a project:
 
