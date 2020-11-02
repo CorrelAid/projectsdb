@@ -1,0 +1,43 @@
+name: Update projects.json
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+jobs: 
+  run:
+    name: Update projects.json
+    runs-on: "macos-latest"
+    steps: 
+      - uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: 'release'
+      - name: Query dependencies
+        run: |
+          install.packages('remotes')
+          saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+          writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+        shell: Rscript {0}
+      - name: "Install projectutils"
+        run: |
+            remotes::install_github("CorrelAid/projectutils")
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Run update function
+        run: |
+          library(projectutils)
+          projectutils::update_projects_json()
+        shell: Rscript {0}
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v5
+        with:
+          author_name: correlaid_mu
+          author_email: frie.p@correlaid.org
+          message: "update projects.json"
+          add: "projects.json --force"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
