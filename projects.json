@@ -157,6 +157,71 @@
         ]
     },
     {
+        "project_id": "KOM-01-2020",
+        "project_id_path": "2020-01-KOM",
+        "published": true,
+        "title": {
+            "de": "title that will appear on the website",
+            "en": "title that will appear on the website"
+        },
+        "start": "2020-01",
+        "end": "2020-07",
+        "repo": {
+            "url": "https://github.com/CorrelAid/komunat",
+            "public": false
+        },
+        "links": {
+            "en": [
+                "[Podcast episode (in German)](https://soundcloud.com/correlaid_podcast/about-correlaid-data-science-fur-die-wahlentscheidungshilfe-komunat)"
+            ],
+            "de": [
+                "[Podcast Episode](https://soundcloud.com/correlaid_podcast/about-correlaid-data-science-fur-die-wahlentscheidungshilfe-komunat)"
+            ]
+        },
+        "organization": {
+            "name": "Team Tomorrow",
+            "website": "https://team-tomorrow.org",
+            "about": {
+                "de": {
+                    "text": "",
+                    "source": "[Selbstdarstellung](https://team-tomorrow.org/wp-content/uploads/2020/03/Satzung-Unsere-Zukunft-e.V..pdf) und [Website](https://team-tomorrow.org/verein/) von Team Tomorrow"
+                },
+                "en": {
+                    "text": "“Team Tomorrow” is a politically independent Non-Profit-Organisation located in Stuttgart that aims to rejuvenate and strengthen civic engagement in politics by means of promoting youth participation, political dialogue and civic education.\nTheir scope of activities include offering support to young volunteers in setting up their own projects on citizen engagement and youth empowerment or promoting civic education in close cooperation with the local centres of political education. Recent initiatives include (online) panel discussions, public debates or research projects.",
+                    "source": "translated from [here](https://team-tomorrow.org/wp-content/uploads/2020/03/Satzung-Unsere-Zukunft-e.V..pdf)\nand [here](https://team-tomorrow.org/verein/)"
+                }
+            }
+        },
+        "description": {
+            "de": {
+                "summary": "",
+                "problem": "",
+                "data": "",
+                "approach": "",
+                "impact": ""
+            },
+            "en": {
+                "summary": "",
+                "problem": "",
+                "data": "",
+                "approach": "",
+                "impact": ""
+            }
+        },
+        "team": [
+            {
+                "first_name": "Andreas",
+                "last_name": "Neumann"
+            },
+            {
+                "first_name": "Aylin",
+                "last_name": "Kallmayer",
+                "twitter": "AylinKallmayer"
+            }
+        ],
+        "year": 2020
+    },
+    {
         "project_id": "DEN-03-2020",
         "project_id_path": "2020-03-DEN",
         "title": {
