@@ -1,0 +1,73 @@
+{
+    "project_id": "IKM-11-2019",
+    "project_id_path": "2019-11-IKM",
+    "published": true,
+    "title": {
+        "en": "",
+        "de": ""
+    },
+    "start": "2019-11",
+    "end": "2020-10",
+    "repo": {
+        "url": "https://github.com/CorrelAid/ikmo",
+        "public": false
+    },
+    "links": {
+        "en": [
+
+        ],
+        "de": [
+
+        ]
+    },
+    "organization": {
+        "name": "Berliner Beratungsnetz für Zugewanderte",
+        "website": "https://www.beratungsnetz-migration.de/",
+        "about": {
+            "de": {
+                "text": "Das Beratungsnetz für Zugewanderte ist ein Projekt der Servicestelle [Interkulturellen Kompetenznetzwerks für Migrant*innenorganisationen Berlin (IKMO)](http://ikmo-berlin.de) im Rahmen von [VIA-Berlin](https://www.via-in-berlin.de/).",
+                "source": ""
+            },
+            "en": {
+                "text": "",
+                "source": ""
+            }
+        }
+    },
+    "description": {
+        "de": {
+            "summary": "",
+            "problem": "",
+            "data": "",
+            "approach": "",
+            "impact": ""
+        },
+        "en": {
+            "summary": "",
+            "problem": "",
+            "data": "",
+            "approach": "",
+            "impact": ""
+        }
+    },
+    "team": [
+        {
+            "first_name": "Long",
+            "last_name": "Nguyen"
+        },
+        {
+            "first_name": "Enrico",
+            "last_name": "Lauckner"
+        },
+        {
+            "first_name": "Sam",
+            "last_name": "Siewers"
+        },
+        {
+            "first_name": "Natalie",
+            "last_name": "Sablowski"
+        }
+    ],
+    "year": 2019
+}
+
