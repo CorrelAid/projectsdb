@@ -1,1 +1,0 @@
-Das Beratungsnetz für Zugewanderte ist ein Projekt der Servicestelle [Interkulturellen Kompetenznetzwerks für Migrant*innenorganisationen Berlin (IKMO)](http://ikmo-berlin.de) im Rahmen von [VIA-Berlin](https://www.via-in-berlin.de/).
