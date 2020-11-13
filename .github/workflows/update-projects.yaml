@@ -3,17 +3,15 @@ on:
   push:
     branches:
       - main
-      - master
     paths-ignore:
       - '**/README.**'
   pull_request:
     branches:
       - main
-      - master
     paths-ignore:
       - '**/README.**'
 jobs: 
-  run:
+  update-json:
     name: Update projects.json
     runs-on: "macos-latest"
     steps: 
@@ -40,4 +38,11 @@ jobs:
           message: "update projects.json"
           add: "projects.json --force"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+  website-rebuild:
+    name: trigger rebuild of website
+    needs: update-json
+    runs-on: "ubuntu-latest"
+    if: ${{ github.event_name == 'push' }}
+    steps: 
+      -  run: curl ${{ secrets.BUDDY_WEBHOOK }}
