@@ -1,0 +1,2 @@
+“Team Tomorrow” is a politically independent Non-Profit-Organisation located in Stuttgart that aims to rejuvenate and strengthen civic engagement in politics by means of promoting youth participation, political dialogue and civic education.
+Their scope of activities include offering support to young volunteers in setting up their own projects on citizen engagement and youth empowerment or promoting civic education in close cooperation with the local centres of political education. Recent initiatives include (online) panel discussions, public debates or research projects.

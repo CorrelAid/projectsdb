@@ -1,0 +1,66 @@
+{
+    "project_id": "KOM-01-2020",
+    "project_id_path": "2020-01-KOM",
+    "published": true,
+    "title": {
+        "de": "title that will appear on the website",
+        "en": "title that will appear on the website"
+    },
+    "start": "2020-01",
+    "end": "2020-07",
+    "repo": {
+        "url": "https://github.com/CorrelAid/komunat",
+        "public": false
+    },
+    "links": {
+        "en": [
+            "[Podcast episode (in German)](https://soundcloud.com/correlaid_podcast/about-correlaid-data-science-fur-die-wahlentscheidungshilfe-komunat)"
+        ],
+        "de": [
+            "[Podcast Episode](https://soundcloud.com/correlaid_podcast/about-correlaid-data-science-fur-die-wahlentscheidungshilfe-komunat)"
+        ]
+    },
+    "organization": {
+        "name": "Team Tomorrow",
+        "website": "https://team-tomorrow.org",
+        "about": {
+            "de": {
+                "text": "",
+                "source": "[Selbstdarstellung](https://team-tomorrow.org/wp-content/uploads/2020/03/Satzung-Unsere-Zukunft-e.V..pdf) und [Website](https://team-tomorrow.org/verein/) von Team Tomorrow"
+            },
+            "en": {
+                "text": "“Team Tomorrow” is a politically independent Non-Profit-Organisation located in Stuttgart that aims to rejuvenate and strengthen civic engagement in politics by means of promoting youth participation, political dialogue and civic education.\nTheir scope of activities include offering support to young volunteers in setting up their own projects on citizen engagement and youth empowerment or promoting civic education in close cooperation with the local centres of political education. Recent initiatives include (online) panel discussions, public debates or research projects.",
+                "source": "translated from [here](https://team-tomorrow.org/wp-content/uploads/2020/03/Satzung-Unsere-Zukunft-e.V..pdf)\nand [here](https://team-tomorrow.org/verein/)"
+            }
+        }
+    },
+    "description": {
+        "de": {
+            "summary": "",
+            "problem": "",
+            "data": "",
+            "approach": "",
+            "impact": ""
+        },
+        "en": {
+            "summary": "",
+            "problem": "Voting advice applications (VAA) are web apps designed to match potentially hesitant voters with parties or candidates who share similar political positions. The user is required to complete an opinionnaire containing questions on current political affairs, in order to initiate the matching process.  \n\nIn Germany, VAA-operators mainly focused on party only matchings in their web applications prior to European, Federal or State elections. Local district elections were largely ignored, since different voting techniques apply (Panachage and Cumulative voting) which in turn requires a closer attention to the candidates rather than parties.  \n\nTherefore, a Stuttgart-based Non-Profit-Organisation, “Team Tomorrow”, developed “KOMUNAT”; an entirely candidate-based VAA for the local town elections in May 2019. A rather complex voting procedure along with an enormous number of candidates (in 2019: over 913), explains why local elections in Stuttgart are traditionally afflicted by low election turnout rates. Hence, in order to increase the visibility of the candidates, the candidate based VAA “KOMUNAT” aims to bring together both the candidates and the users, who share similar political positions and values. \n\nThe user/candidate matching works as follows: Each app user had to rank or weight 12 questions on political principles (e.g. Tradition or Solidarity) and 13 political statements (e.g. lower fares for bus and train travel) in accordance to personal preferences to commence the matching process. Next, the app matched the user with 20 candidate profiles with \"the ~~shortest~~ smallest distance\" to the rankings the user just submitted, meaning that these 20 candidate profiles (almost) coincide with the user profile and both provided identical ratings for the same 25 statements.  \n\n“Team Tomorrow” approached CorrelAid as they wished to gain an insight into the statistics of the \"KOMUNAT\" app. Overall, two major topics had to be investigated: the user statistics for product improvement and the political analysis to assess both the political preferences of the app users and the potential impact of the VAA on local politics.   ",
+            "data": "The data gathered by the app was handed over by \"Team Tomorrow\" in five large json files.\nUnfortunately, one file that contained data on roughly 5.000 app users, was corrupted which left us with data from 15.958 users. \n\nTo start with, we converted the json data into two large data frames stored as RData files. \n\nWe saved the user profiles and the metadata on user behaviour in a separate file labelled as „data_Teilnehmer.RData“. The data consists of the user rankings for each of the 25 questions and a timestamp for starting and finishing each question. In total, we had 399.875 observations and 11 variables. \n\nThe second file is called „data_Kandidat.RData“ and contains information about the top 30 candidates each app user was assigned to (i.e candidate profiles with the \"shortest distance\" to the user ratings).  \n\nCandidate information included name, voting district, age and motto (they were asked to write a short sentence that represents what they stand for), resulting in 11.996.250 observations over 10 variables. Ultimately, we evaluated the data of the top 20 candidates per user, since the app officially matched 20 candidates to each user, not 30.  \nThe files are accessible on [Github](https://github.com/CorrelAid/komunat) in the folder \"outputs/data\". ",
+            "approach": "Our first goal was to transform the large json files into something more useful and easier to work with (R data frames).\nThen, we subsequently evaluated the metadata to fully explore the user session durations (i.e. how many people used the app on which days and how long they usually stayed on one question) and completed our analysis with a full political assessment to determine the political beliefs of the users and how it shapes the candidate popularity in the app. \n\nWe used R (mostly making use of the tidyverse, shiny, ggplot, gganimate and cartogram packages) throughout the entire data evaluation process. ",
+            "impact": "We created a shiny app to visualize how well the different parties and candidates performed in terms of how often they were suggested to the app user. The shiny app also visualizes the contrast between topics that were important to the app users and topics that were important to the candidates. \nTo further get an idea about which positions were more favourable among the app users we compared \"Top Performer\" candidates with \"Worst Performer\" candidates on a district regional level which we visualized as dynamic maps (which candidate performed best and which worst regarding each of the questions in each district). \n\nIn addition to the descriptive statistics, we estimated how candidates with a KOMUNAT profile performed in the local elections compared to those without.    \nWe included publicly available data on the share of votes each candidate obtained in the 2019 elections and the party list positions each candidate secured on the ballot paper before the elections. \nOverall, we found that candidates with a KOMUNAT profile had a higher share of votes compared to their counterparts without a profile, no matter whether they obtained a top position on the voting paper or not. Candidates without a KOMUNAT profile required a higher position on the ballot to achieve the same share of votes, in contrast to their competitors with a profile.  "
+        }
+    },
+    "team": [
+        {
+            "first_name": "Andreas",
+            "last_name": "Neumann"
+        },
+        {
+            "first_name": "Aylin",
+            "last_name": "Kallmayer",
+            "twitter": "AylinKallmayer"
+        }
+    ],
+    "year": 2020
+}
+
