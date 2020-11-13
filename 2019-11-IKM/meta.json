@@ -53,11 +53,13 @@
     "team": [
         {
             "first_name": "Long",
-            "last_name": "Nguyen"
+            "last_name": "Nguyen",
+            "github": "long39ng"
         },
         {
             "first_name": "Enrico",
-            "last_name": "Lauckner"
+            "last_name": "Lauckner",
+            "github": "elauckne"
         },
         {
             "first_name": "Sam",

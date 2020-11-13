@@ -25,8 +25,8 @@ proj$links$de <- list()
 names(proj$team[[1]])
 
 proj$team <- list(
-  list(first_name = "Long", last_name = "Nguyen"),
-  list(first_name = "Enrico", last_name = "Lauckner"),
+  list(first_name = "Long", last_name = "Nguyen", github = "long39ng"),
+  list(first_name = "Enrico", last_name = "Lauckner", github = "elauckne"),
   list(first_name = "Sam", last_name = "Siewers"),
   list(first_name = "Natalie", last_name = "Sablowski")
 )
