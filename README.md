@@ -55,6 +55,10 @@ remotes::install_github("CorrelAid/projectutils")
 Are you part of a project team and currently working on the follow up
 for your project? Great\!
 
+## Draft your project description
+
+You can use [this template](https://pad.correlaid.org/lTV3NzFNRxGK3wrcSYIk4Q#) with guiding questions to draft your project description. 
+
 ## Create a branch
 
 Clone the repository if you have not already. On your machine, create a
