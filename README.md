@@ -1,6 +1,8 @@
 projectsdb
 ================
-[![Update projects.json](https://github.com/CorrelAid/projectsdb/workflows/Update%20projects.json/badge.svg?branch=main)](https://github.com/CorrelAid/projectsdb/actions?query=workflow%3A%22Update+projects.json%22)
+
+[![Update
+projects.json](https://github.com/CorrelAid/projectsdb/workflows/Update%20projects.json/badge.svg?branch=main)](https://github.com/CorrelAid/projectsdb/actions?query=workflow%3A%22Update+projects.json%22)
 [![License:
 DbCL](https://img.shields.io/badge/DbCL-Database%20Content%20License-informational)](http://opendatacommons.org/licenses/dbcl/1.0/)
 [![License:
@@ -57,7 +59,9 @@ for your project? Great\!
 
 ## Draft your project description
 
-You can use [this template](https://pad.correlaid.org/lTV3NzFNRxGK3wrcSYIk4Q#) with guiding questions to draft your project description. 
+You can use [this
+template](https://pad.correlaid.org/lTV3NzFNRxGK3wrcSYIk4Q#) with
+guiding questions to draft your project description.
 
 ## Create a branch
 
