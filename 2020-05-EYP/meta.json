@@ -3,67 +3,73 @@
     "project_id_path": "2020-05-EYP",
     "published": false,
     "title": {
-        "de": "title that will appear on the website",
-        "en": "title that will appear on the website"
+        "de": "Anschauliche Aufbereitung von Umfragen zur Teilnehmerstruktur und dem Impact von Veranstaltungen des EYP",
+        "en": "Illustrative analysis of surveys on participant structure and the impact of EYP events"
     },
     "start": "2020-05",
-    "end": "1970-10",
+    "end": "2020-10",
     "repo": {
-        "url": "github url",
+        "url": "https://github.com/CorrelAid/eyp-ii",
         "public": false
     },
     "links": {
         "en": [
-            "you can add markdown here like 'this is the [CorrelAid website](https://correlaid.org)'",
-            "you can add markdown here like 'this is the [CorrelAid website](https://correlaid.org)'"
+            ""
         ],
         "de": [
-            "you can add markdown here like 'this is the [CorrelAid website](https://correlaid.org)'",
-            "you can add markdown here like 'this is the [CorrelAid website](https://correlaid.org)'"
+            ""
         ]
     },
     "organization": {
-        "name": "",
-        "website": "",
+        "name": "European Youth Parliament",
+        "website": "https://eyp.org/",
         "about": {
             "de": {
-                "text": "actual description - please copy from 00_about.md for now",
-                "source": "markdown describing the source (if applicable)"
+                "text": "\"Wir sind engagierte Jugendliche, die durch interaktive, europapolitische Bildungsarbeit den Austausch junger Menschen in Europa fördern sowie unsere Generation dazu befähigen, sich eine eigene Meinung zu bilden und sich aktiv am politischen und gesellschaftlichen Leben zu beteiligen.\"",
+                "source": "[Selbstdarstellung](https://eyp.de/de/)"
             },
             "en": {
-                "text": "actual description - please copy from 00_about.md for now",
-                "source": "markdown describing the source (if applicable) - if translated from German original source write 'translated from [url]()'"
+                "text": "The European Youth Parliament is a peer-to-peer educational programme that brings together young people from across Europe to debate the pressing issues of our time. Our mission is to inspire and empower young Europeans to be open-minded, tolerant and active citizens.",
+                "source": "[Source](https://eyp.org/)"
             }
         }
     },
     "description": {
-        "en": {
-            "summary": "do not fill in - will be automatically injected from 00_summary.md",
-            "about": "do not fill in - will be automatically injected from 00_about.md",
-            "problem": "do not fill in - will be automatically injected from 01_problem.md",
-            "data": "do not fill in - will be automatically injected from 02_data.md",
-            "approach": "do not fill in - will be automatically injected from 03_approach.md",
-            "impact": "do not fill in - will be automatically injected from 04_impact.md"
-        },
         "de": {
-            "summary": "do not fill in - will be automatically injected from 00_summary.md",
-            "about": "do not fill in - will be automatically injected from 00_about.md",
-            "problem": "do not fill in - will be automatically injected from 01_problem.md",
-            "data": "do not fill in - will be automatically injected from 02_data.md",
-            "approach": "do not fill in - will be automatically injected from 03_approach.md",
-            "impact": "do not fill in - will be automatically injected from 04_impact.md"
+            "summary": "Im Rahmen dieses Projektes wurden mehrere Umfragen unter Teilnehmenden der Veranstaltungen des Europäischen Jugendparlamentes ausgewertet. Im ersten Schritt lag der Fokus auf der Untersuchung sozio-demographischen Faktoren wie Alter, Geschlecht und Herkunft. Zweitens wurde die Auswirkung des jeweiligen Events auf die Einstellungen der Teilnehmer ausgewertet.",
+            "problem": "Das Ziel des Projektes war es, die Daten der Umfragen anschaulich aufzubereiten und dem Europäischen Jugendparlament einen Überblick über die Teilnehmerstruktur zu geben und den Effekt der EYP-Veranstaltungen auf das persönliche Empfinden und Verhalten der Teilnehmer herauszustellen. Darüber hinaus sollte anhand der Arbeit mit den Daten eine Empfehlung ausgesprochen werden, wie das Europäische Jugendparlament zukünftig eigenständige Analysen durchführen oder welche Verbesserungen es in der Konzeption und Durchführung der Umfrage anstreben könnte.",
+            "data": "Das Europäische Jugendparlament hat bei Veranstaltungen in fünf Städten jeweils drei Umfragen durchgeführt. Dabei handelte es sich um eine Vorbefragung, eine Befragung unmittelbar nach der Veranstaltung und eine Befragung drei Monate nach der Veranstaltung. Die “Active Volunteers” (Freiwillige, die ebenfalls an der Veranstaltung teilnehmen, aber von Seite des EYP aus) wurden während der Veranstaltung und ebenfalls drei Monate nach der Veranstaltung befragt. Die vorhandenen Daten waren in 20 Exceltabellen aufgeteilt, d. h.: drei Befragungen pro Stadt für die Teilnehmer (Vorbefragung, während Veranstaltung, drei Monate nach Veranstaltung), zwei Befragungen pro Stadt für die “Active Volunteers”. Die Anzahl der Befragten variierte nach Stadt und Art der Umfrage zwischen ca. 20 und 130. Die Anzahl der Fragen betrug ebenfalls je nach Stadt und Art der Befragung zwischen 26 und über 150. Die Fragen waren häufig in Unterkategorien eingeteilt und konnten von denjenigen, die die Umfrage durchgeführt haben, frei verändert werden. Das bedeutet, dass unterschiedliche Reihenfolgen der Fragen und Schreibweisen in den Daten vorzufinden waren. Darüber hinaus waren die Skalen nicht einheitlich. In einigen Umfragen wurde von 0-5 bewertet, in anderen von 0-9.\r\nEinige Variablen betrafen soziodemografische Faktoren. Die meisten Variablen bezogen sich darauf, wie einem bestimmte Faktoren der Veranstaltung gefallen haben oder welche Einstellung die Teilnehmer zu bestimmten Themen haben. Die Daten wurden unbereinigt zur Verfügung gestellt.",
+            "approach": "Das Projekteam von CorrelAid sollte dem EYP helfen, neue Erkenntnisse über die Struktur und Hintergründe der Veranstaltungsteilnehmer des EYP zu gewinnen. Ziel war es, die Entwicklung in der Bewertung verschiedener Items vor und nach dem Event darzustellen. \r\nDazu wurden die vorliegenden Umfragen mit R ausgewertet. Es wurden Mittelwerte der Bewertungen berechnet und in Diagrammen dargestellt. Die Diagramme stellten die Mittelwerte zu den entsprechenden Items in der ersten und zweiten Befragung gegenüber. So war ein direkter Vergleich möglich, der dem Auftraggeber einen Eindruck von den Auswirkung der Veranstaltungen auf die Bewertung der Items durch die Teilnehmer bieten sollte.\r\nAufgrund der vorhandenen Datenstruktur konnten keine statistischen Aussagen über die Entwicklung gemacht werden, die eine unanfechtbare Interpretation der Ergebnisse ermöglichen würden. Ein Unterschied in den Angaben zwischen der Vor- und Nachbefragung konnte dennoch gezeigt und dem Auftraggeber somit in der Auswertung der Ergebnisse geholfen werden. Die Ergebnisse der Datenanalyse wurden zusammen mit Tipps zur Vereinfachung und Vereinheitlichung der Umfragen in einem Report zusammgengefasst, erklärt und in einer gemeinsamen Videokonferenz an das EYP übergeben.\r\n",
+            "impact": "Als zentrales Ergebnis wurde ein Report an das EYP übergeben. Das methodische Vorgehen wurde erläutert, überraschende Ergebnisse thematisiert und mögliche Erklärungsfaktoren angebracht. Des Weiteren enthält der Bericht Verbesserungsvorschläge für die Datenerhebung bzw. die Umfrage, um zukünftig eindeutigere Ergebnisse erzielen zu können.\r\nAufgrund der Datenstruktur wurde umfangreicher Code für die Daten verwendet, den das EYP vorasussichtlich nicht verwenden kann, insofern keine Kenntnisse in R vorhanden sind. Der Organisation hat der Bericht des Projektteams von CorrelAid jedoch Schwachstellen in der inhaltlichen und technischen Durchführung der Befragungen aufgezeigt. Das EYP konnte darüber hinaus erkennen, dass die durchgeführten Events im Allgemeinen sehr positiv von den Teilnehmenden bewertet werden. Im Rahmen des Projektes wurde deutlich, an welchen Stellen zukünftig Veränderungen vorgenommen werden müssen, um Prozesse zu vereinfachen und die Projektdauer zu verkürzen ohne Qualität einzubüßen."
+        },
+        "en": {
+            "summary": "The CorrelAid-project team evaluated several surveys among participants of the European Youth Parliament. In a first step, the focus was on socio-demographic factors such as age, gender and origin. Secondly, the impact of the respective event on the attitudes of the participants was evaluated.",
+            "problem": "The aim of the project was to clearly present the data from the surveys and to give the European Youth Parliament an overview of the structure of participants and to highlight the effect of the EYP events on the attitudes and skills of the participants. In addition, the work with the data was to be used to make a recommendation on how the European Youth Parliament could carry out independent analyses in the future or what improvements it could seek in the design and implementation of the survey.",
+            "data": "The European Youth Parliament conducted three surveys at events in five different cities. These were a preliminary survey, a survey immediately after the event and a survey three months after the event. The “Active Volunteers” (volunteers who also participate in the event, but from the EYP side) were interviewed during the event and also three months after the event. The number of respondents varied between approximately 20 and 130, depending on the city and type of survey. The number of questions also varied between 26 and over 150, depending on the city and type of survey.",
+            "approach": "The CorrelAid project team was asked to help the EYP team gaining new insights into the structure and background of the participants in the EYP events. The aim was to show in the evaluation the development of different items, such as attitudes of participants, before and after the event. \r\nFor this purpose, the surveys have been evaluated with R. Mean values of the evaluations were estimated and presented in diagrams. The diagrams compared the mean values for the corresponding items in the first and second survey. This made a direct comparison possible, which should give the organisation an idea of the impact of the event on the participants’ evaluation of the items. \r\nNote that no causal identification strategy was implemented, thus causal interpretations are not warranted. Due to the data structure, no statistical statements about the development can be made which would allow for an incontestable interpretation of the results. Nevertheless, a difference in the data between the pre- and post-survey could be shown and thus help the client in the evaluation of the results. The results of the data analysis together with advice for simplifying and standardising the surveys were summarised in a report, explained and handed over to the EYP team in a video conference.",
+            "impact": "As the main result a report was handed over to the EYP. The used methods were explained, surprising results were discussed and possible explanatory factors were added. Furthermore, the report contains suggestions for improvement of the data collection or the survey in order to achieve clearer results in the future. Due to the structure of the data, extensive code was used to clean the data, which the EYP is unlikely to be able to use if there is no knowledge of R. However, the CorrelAid project team's report revealed weaknesses in the contentual and technical design of the surveys.\r\nThe EYP was able to see that the events carried out were generally very positively evaluated by the participants. During the project, it became clear where changes in the survey are needed in order to simplify processes and shorten the project duration without sacrificing quality."
         }
     },
     "team": [
         {
-            "first_name": "",
-            "last_name": "",
-            "github": "github username",
-            "twitter": "twitter username",
-            "linkedin": "full linkedin url",
-            "website": "full website url",
-            "email": "",
-            "pgp": "public pgp key"
+            "first_name": "Johannes",
+            "last_name": "Rabenschlag",
+            "github": "jrabensc",
+            "linkedin": "jrabensc"
+        },
+        {
+            "first_name": "Alexandra",
+            "last_name": "Naumann",
+            "twitter": "AlexandraNaumann",
+            "github": "AlexandraNaumann"
+        },
+        {
+            "first_name": "Aaron",
+            "last_name": "Pickering"
+        },
+        {
+            "first_name": "Enrica",
+            "last_name": "Cherubini"
         }
     ],
     "year": 2020

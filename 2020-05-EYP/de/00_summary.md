@@ -1,0 +1,1 @@
+Im Rahmen dieses Projektes wurden mehrere Umfragen unter Teilnehmenden der Veranstaltungen des Europäischen Jugendparlamentes ausgewertet. Im ersten Schritt lag der Fokus auf der Untersuchung sozio-demographischen Faktoren wie Alter, Geschlecht und Herkunft. Zweitens wurde die Auswirkung des jeweiligen Events auf die Einstellungen der Teilnehmer ausgewertet.

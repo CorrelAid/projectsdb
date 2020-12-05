@@ -1,0 +1,1 @@
+The European Youth Parliament is a peer-to-peer educational programme that brings together young people from across Europe to debate the pressing issues of our time. Our mission is to inspire and empower young Europeans to be open-minded, tolerant and active citizens.

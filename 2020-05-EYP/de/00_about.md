@@ -1,0 +1,1 @@
+"Wir sind engagierte Jugendliche, die durch interaktive, europapolitische Bildungsarbeit den Austausch junger Menschen in Europa fördern sowie unsere Generation dazu befähigen, sich eine eigene Meinung zu bilden und sich aktiv am politischen und gesellschaftlichen Leben zu beteiligen."

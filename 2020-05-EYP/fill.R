@@ -1,5 +1,5 @@
 library(projectutils)
-proj <- load_project("2020-01-KOM/")
+proj <- load_project("2020-05-EYP/")
 
 # organization
 proj$organization$name <- "Team Tomorrow"
