@@ -1,25 +1,29 @@
 library(projectutils)
 proj <- load_project("2020-05-EYP/")
 
+proj$title$de <- "Anschauliche Aufbereitung von Umfragen zur Teilnehmerstruktur und dem Impact von Veranstaltungen des EYP"
+proj$title$en <- "Illustrative analysis of surveys on participant structure and the impact of EYP events"
+
 # organization
-proj$organization$name <- "Team Tomorrow"
-proj$organization$website <- "https://team-tomorrow.org"
-proj$organization$about$en$source <- "translated from [here](https://team-tomorrow.org/wp-content/uploads/2020/03/Satzung-Unsere-Zukunft-e.V..pdf)
-and [here](https://team-tomorrow.org/verein/)"
-proj$organization$about$de$source <- "[Selbstdarstellung](https://team-tomorrow.org/wp-content/uploads/2020/03/Satzung-Unsere-Zukunft-e.V..pdf) und [Website](https://team-tomorrow.org/verein/) von Team Tomorrow"
+proj$organization$name <- "European Youth Parliament"
+proj$organization$website <- "https://eyp.org/"
+proj$organization$about$en$source <- "[Source](https://eyp.org/)"
+proj$organization$about$de$source <- "[Selbstdarstellung](https://eyp.de/de/)"
 
-proj$end <- "2020-07"
-proj$repo$url <- "https://github.com/CorrelAid/komunat"
-proj$links$en <- list("[Podcast episode (in German)](https://soundcloud.com/correlaid_podcast/about-correlaid-data-science-fur-die-wahlentscheidungshilfe-komunat)") 
-proj$links$de <- list("[Podcast Episode](https://soundcloud.com/correlaid_podcast/about-correlaid-data-science-fur-die-wahlentscheidungshilfe-komunat)") 
+proj$end <- "2020-10"
+proj$repo$url <- "https://github.com/CorrelAid/eyp-ii"  
 
+proj$links$en <- list("") 
+proj$links$de <- list("") 
 
-# team
+# team    
 proj$team <- list(
-  list(first_name = "Andreas", last_name = "Neumann"), 
-  list(first_name = "Aylin", last_name = "Kallmayer", twitter = "AylinKallmayer")
+  list(first_name = "Johannes", last_name = "Rabenschlag", github = "jrabensc", linkedin = "jrabensc"),
+  list(first_name = "Alexandra", last_name = "Naumann", twitter = "AlexandraNaumann", github = "AlexandraNaumann"),
+  list(first_name = "Aaron", last_name = "Pickering"),
+  list(first_name = "Enrica", last_name = "Cherubini")
 )
 
-proj$published <- TRUE # set to true always before making a PR.
+proj$published <- FALSE # set to true always before making a PR.
 
 write_project(proj)
