@@ -2,7 +2,7 @@ library(projectutils)
 proj <- load_project("2020-05-EYP/")
 
 proj$title$de <- "Anschauliche Aufbereitung von Umfragen zur Teilnehmerstruktur und dem Impact von Veranstaltungen"
-proj$title$en <- "Illustrative analysis of surveys on participant structure and the impact of events"
+proj$title$en <- "Illustrative survey analysis on impact of educational events and participant structure"
 
 # organization
 proj$organization$name <- "European Youth Parliament"
