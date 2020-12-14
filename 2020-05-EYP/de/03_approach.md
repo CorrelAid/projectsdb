@@ -1,0 +1,3 @@
+Das CorrelAid-Projektteam half dem EYP-Team, neue Erkenntnisse über die Zusammensetzung und den Hintergrund der Teilnehmer an den EYP-Veranstaltungen zu gewinnen.
+Ziel war es, die Veränderung verschiedener Items, wie z.B. der Einstellungen der Teilnehmer vor und nach der Veranstaltung, aufzuzeigen. Dazu wurden Mittelwerte berechnet und in Diagrammen dargestellt. Dadurch wurde ein direkter Vergleich möglich, der der Organisation eine Eindruck von dem Einfluss der Veranstaltung auf die Bewertung der Items durch die Teilnehmer vermitteln sollte. Zu beachten ist, dass kausale Interpretationen aufgrund der Datenstruktur nicht möglich waren. 
+Die Umfragen wurden mit R ausgewertet.

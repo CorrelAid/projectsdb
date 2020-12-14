@@ -1,0 +1,3 @@
+Basis for this project was a broad and systematic attempt by the EYP to evaluate their events. The EYP conducted three surveys at five of their international events in different cities in Europe. These were a preliminary survey before, a survey immediately after and a survey three months after the event.
+The “Active Volunteers”, i.e. volunteers from the EYP itself who also participate in the event, were interviewed twice, during the event and also three months after the event.
+The number of respondents varied between approximately 20 and 130, depending on the city and type of survey. The number of questions also varied between 26 and over 150, depending on the city and type of survey.

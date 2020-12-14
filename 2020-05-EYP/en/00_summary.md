@@ -1,0 +1,1 @@
+The CorrelAid-project team evaluated several surveys among participants of events of the European Youth Parliament. The focus was, firstly, on socio-demographic factors such as age, gender and origin of the participants. Secondly, the impact of the respective event on the attitudes of the participants was evaluated. The team consisted of a project lead and three analysts.
