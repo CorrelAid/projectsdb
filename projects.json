@@ -325,6 +325,82 @@
                 "pgp": "-----BEGIN PGP PUBLIC KEY BLOCK-----\nmDMEX18aHBYJKwYBBAHaRw8BAQdAbCl6uW7PYvHWSbzLYPBFlvnGae07veaHulzb\nEBBWvYO0KUpvbmF0aGFuIFNhdWVyIDxjb250YWN0QGpvbmF0aGFuc2F1ZXIuZGU+\niJYEExYIAD4WIQTIWzN3G55bGDBbu7TFTcB9xs2l8wUCX18aHAIbAwUJCWYBgAUL\nCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRDFTcB9xs2l84isAQDcbPNWalU4Aw3U\ntvjWEd8joivskmszapvS8WSAQbR1vAEAgU6YxHgQei40o8XfMQpoofKP3suo9+qB\n5j0G5J2x8g+4OARfXxocEgorBgEEAZdVAQUBAQdAOE4Ns091Jj6G5+24/aB/+sla\nF0+gqFDEROdp2YyDvScDAQgHiH4EGBYIACYWIQTIWzN3G55bGDBbu7TFTcB9xs2l\n8wUCX18aHAIbDAUJCWYBgAAKCRDFTcB9xs2l83kLAP9U+PCAYegCK2UsuBkqohXF\n75UDn0H3gjJL9YHsH4nzzwEA8eeRtdrci7XkakwY1ljdV2kY+xY3zVfC5qByfxLu\nyAI=\n=X0Bf\n-----END PGP PUBLIC KEY BLOCK-----"
             }
         ]
+    },
+    {
+        "project_id": "EYP-05-2020",
+        "project_id_path": "2020-05-EYP",
+        "published": true,
+        "title": {
+            "de": "Anschauliche Aufbereitung von Umfragen zur Teilnehmerstruktur und dem Impact von Veranstaltungen",
+            "en": "Illustrative analysis of surveys on participant structure and the impact of events"
+        },
+        "start": "2020-05",
+        "end": "2020-10",
+        "repo": {
+            "url": "https://github.com/CorrelAid/eyp-ii",
+            "public": false
+        },
+        "links": {
+            "en": [
+
+            ],
+            "de": [
+
+            ]
+        },
+        "organization": {
+            "name": "European Youth Parliament",
+            "website": "https://eyp.org/",
+            "about": {
+                "de": {
+                    "text": "Das European Youth Parliament (Europäisches Jugendparlament) ist ein Peer-to-Peer-Bildungsprogramm, das junge Menschen aus ganz Europa zusammenbringt, um die drängenden Fragen unserer Zeit zu diskutieren. Seine Mission ist es, junge Europäer zu inspirieren und zu befähigen, aufgeschlossene, tolerante und aktive Bürger zu sein. Das Europäische Jugendparlament ist ein Programm der Schwarzkopf-Stiftung Junges Europa.",
+                    "source": "[übersetzt von hier](https://eyp.org/)"
+                },
+                "en": {
+                    "text": "The European Youth Parliament is a peer-to-peer educational programme that brings together young people from across Europe to debate the pressing issues of our time. Their mission is to inspire and empower young Europeans to be open-minded, tolerant and active citizens. The European Youth Parliament is a programme of the Schwarzkopf Foundation Young Europe.",
+                    "source": "[Source](https://eyp.org/)"
+                }
+            }
+        },
+        "description": {
+            "de": {
+                "summary": "Das CorrelAid-Projektteam hat mehrere Umfragen unter Teilnehmern von Veranstaltungen des European Youth Parliament ausgewertet. Der Fokus lag zum einen auf soziodemografischen Faktoren wie Alter, Geschlecht und Herkunft der Teilnehmer. Zum anderen wurde der Einfluss der jeweiligen Veranstaltung auf die Einstellungen der Teilnehmer ausgewertet. Das Team bestand aus einem Projektleiter und drei Analysten.",
+                "problem": "Ziel des Projekts war es, die Daten aus den Umfragen aufzubereiten, um dem European Youth Parliament ein detaillierteres Bild davon zu geben, wer an dessen Veranstaltungen teilnimmt, und um die Wirkung der EYP-Veranstaltungen auf die Einstellungen und Fähigkeiten der Teilnehmer aufzuzeigen. Darüber hinaus sollte die Arbeit mit den Daten dazu dienen, eine Empfehlung abzugeben, wie das European Youth Parliament in Zukunft eigenständige Analysen durchführen und welche Verbesserungen es bei der Gestaltung und Umsetzung der Umfragen vornehmen könnte.",
+                "data": "Grundlage für dieses Projekt war ein umfangreicher und systematischer Ansatz des EYP, seine Veranstaltungen zu evaluieren. Das EYP hatte bei fünf seiner internationalen Veranstaltungen in verschiedenen Städten in Europa jeweils drei Umfragen durchgeführt. Dabei handelte es sich um eine Vorbefragung vor, eine Befragung unmittelbar nach und eine Befragung drei Monate nach der Veranstaltung.\nDie \"Active Volunteers\", d.h. die Freiwilligen des EYP selbst, die auch an der Veranstaltung teilnehmen, wurden zweimal befragt - während der Veranstaltung und ebenfalls drei Monate nach der Veranstaltung.\nDie Anzahl der Befragten variierte zwischen ungefähr 20 und 130, je nach Stadt und Art der Befragung. Auch die Anzahl der Fragen variierte zwischen 26 und über 150, je nach Stadt und Art der Umfrage.",
+                "approach": "Das CorrelAid-Projektteam half dem EYP-Team, neue Erkenntnisse über die Zusammensetzung und den Hintergrund der Teilnehmer an den EYP-Veranstaltungen zu gewinnen.\nZiel war es, die Veränderung verschiedener Items, wie z.B. der Einstellungen der Teilnehmer vor und nach der Veranstaltung, aufzuzeigen. Dazu wurden Mittelwerte berechnet und in Diagrammen dargestellt. Dadurch wurde ein direkter Vergleich möglich, der der Organisation eine Eindruck von dem Einfluss der Veranstaltung auf die Bewertung der Items durch die Teilnehmer vermitteln sollte. Zu beachten ist, dass kausale Interpretationen aufgrund der Datenstruktur nicht möglich waren. \nDie Umfragen wurden mit R ausgewertet.",
+                "impact": "Die Ergebnisse der Datenanalyse wurden in einem Bericht zusammengefasst, der in einer gemeinsamen Videokonferenz an das European Youth Parliament übergeben wurde. Dabei wurden die verwendeten Methoden erläutert, die Ergebnisse diskutiert und anschließend zusätzliche Punkte von Interesse hinzugefügt.\nDer Bericht umfasst Verbesserungsvorschläge für die Datenerhebung und die Umfrage, um in Zukunft noch verlässlichere Ergebnisse zu erzielen. Das Team empfahl, die Umfragen konsistenter zu gestalten, z.B. durch die Verwendung derselben Fragen bei allen Veranstaltungen, um die Vergleichbarkeit der Ergebnisse sicherzustellen und zukünftige Auswertungen zu erleichtern.\nDas EYP hat aus der Analyse gelernt, dass die durchgeführten Veranstaltungen im Allgemeinen sehr positiv von den Teilnehmern bewertet wurden. Für einige untersuchte Punkte wurde ein Unterschied zwischen den Mittelwerten vor und nach der Veranstaltung festgestellt."
+            },
+            "en": {
+                "summary": "The CorrelAid-project team evaluated several surveys among participants of events of the European Youth Parliament. The focus was, firstly, on socio-demographic factors such as age, gender and origin of the participants. Secondly, the impact of the respective event on the attitudes of the participants was evaluated. The team consisted of a project lead and three analysts.",
+                "problem": "The aim of the project was to present the data from the surveys to give the European Youth Parliament an more detailed picture of who participates in their event and to highlight the effect of the EYP events on the attitudes and skills of the participants. In addition, the work with the data was to be used to make a recommendation on how the European Youth Parliament could carry out independent analyses in the future and what improvements it could seek in the design and implementation of the survey.",
+                "data": "Basis for this project was a broad and systematic attempt by the EYP to evaluate their events. The EYP conducted three surveys at five of their international events in different cities in Europe. These were a preliminary survey before, a survey immediately after and a survey three months after the event.\nThe “Active Volunteers”, i.e. volunteers from the EYP itself who also participate in the event, were interviewed twice, during the event and also three months after the event.\nThe number of respondents varied between approximately 20 and 130, depending on the city and type of survey. The number of questions also varied between 26 and over 150, depending on the city and type of survey.",
+                "approach": "The CorrelAid project team helped the EYP team gaining new insights into the structure and background of the participants in the EYP events.\nThe aim was to show the development of different items, such as attitudes of participants, before and after the event. This was achieved by estimating the mean values and presenting them in diagrams. This made a direct comparison possible, which should give the organisation an idea of the impact of the event on the participants’ evaluation of the items. Note that causal interpretations are not warranted given to the data structure. The surveys were evaluated with R.",
+                "impact": "The results of the data analysis were summarised in a report that was handed over to the EYP in a joint video conference. The used methods were explained, results were discussed and additional factors of interest were added afterwards.\nThe report contains suggestions for improvement of the data collection and survey in order to achieve results that are more reliable in the future. The team recommended to make the surveys more consistent, e.g. by using the same set of questions across the events, to make sure that results are comparable and to make future anlyses easier.\nThe EYP has learned from the analysis that the events carried out were generally very positively evaluated by the participants. A difference in the pre- and post-event means was observed for some items of interest."
+            }
+        },
+        "team": [
+            {
+                "first_name": "Johannes",
+                "last_name": "Rabenschlag",
+                "github": "jrabensc",
+                "linkedin": "jrabensc"
+            },
+            {
+                "first_name": "Alexandra",
+                "last_name": "Naumann",
+                "twitter": "AlexandraNaumann",
+                "github": "alexandranaumann"
+            },
+            {
+                "first_name": "Aaron",
+                "last_name": "Pickering"
+            },
+            {
+                "first_name": "Enrica",
+                "last_name": "Cherubini"
+            }
+        ],
+        "year": 2020
     }
 ]
 
