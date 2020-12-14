@@ -18,7 +18,7 @@ proj$links$de <- list()
 
 # team    
 proj$team <- list(
-  list(first_name = "Johannes", last_name = "Rabenschlag", github = "jrabensc", linkedin = "jrabensc"),
+  list(first_name = "Johannes", last_name = "Rabenschlag", github = "jrabensc", linkedin = "https://www.linkedin.com/in/jrabensc"),
   list(first_name = "Alexandra", last_name = "Naumann", twitter = "AlexandraNauman", github = "alexandranaumann"),
   list(first_name = "Aaron", last_name = "Pickering"),
   list(first_name = "Enrica", last_name = "Cherubini")
