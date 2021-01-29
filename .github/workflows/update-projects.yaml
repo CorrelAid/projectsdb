@@ -21,8 +21,9 @@ jobs:
       - name: install projectutils
         run: |
           install.packages('remotes')
-          remotes::install_github("CorrelAid/projectutils")
-          install.packages("here")
+          remotes::install_version('rappdirs', version = '0.3.1')
+          remotes::install_github('CorrelAid/projectutils')
+          install.packages('here')
         shell: Rscript {0}
       - name: Checkout repo
         uses: actions/checkout@v2
