@@ -1,0 +1,1 @@
+Der TV Käfertal ist ein in Mannheim angesiedelter Sportverein mit ca. 800 Mitgliedern. Das Angebot des Vereins umfasst den Breitensport mit gängigen Abteilungen wie beispielsweise Kinderturnen, Tennis, Karate, und Fitnesskurse. Eine Besonderheit des Vereins ist die Faustball-Abteilung, inklusive der Mannschaft der Männer, die in der ersten deutschen Liga spielt.

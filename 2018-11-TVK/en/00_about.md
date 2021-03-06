@@ -1,0 +1,1 @@
+TV Käfertal is a sports club located in Mannheim with about 800 members. The club's offer includes popular sports with common departments such as children's gymnastics, tennis, karate, and fitness courses. A special specialty of the club is the fistball department, including the men's team, which plays in the first German league.

@@ -1,0 +1,1 @@
+The project consisted of designing, conducting and evaluating a member survey for TV Käfertal. The survey covered the topics of satisfaction, communication wishes and a special survey for specific target groups, such as the association's volunteers. In addition, an overview of the members according to socio-demographic aspects was created on the basis of club data.
