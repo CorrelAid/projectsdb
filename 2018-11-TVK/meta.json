@@ -54,7 +54,7 @@
         {
             "first_name": "Polina",
             "last_name": "Mosolova",
-            "linkedin": "polina-mosolova"
+            "linkedin": "https://www.linkedin.com/in/polina-mosolova/"
         },
         {
             "first_name": "Alexander",
@@ -68,9 +68,10 @@
         {
             "first_name": "Manuel",
             "last_name": "Neumann",
-            "linkedin": "manuel-neumann",
+            "linkedin": "https://www.linkedin.com/in/manuel-neumann/",
             "github": "ManuelNeumann",
-            "twitter": "powi_manu"
+            "twitter": "powi_manu",
+            "instagram": "https://instagram.com/powi_manu"
         }
     ],
     "year": 2018

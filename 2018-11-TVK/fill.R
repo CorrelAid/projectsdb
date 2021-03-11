@@ -18,11 +18,11 @@ proj$links$de <- list()
 
 # team    
 proj$team <- list(
-  list(first_name = "Polina", last_name = "Mosolova", linkedin = "polina-mosolova"),
+  list(first_name = "Polina", last_name = "Mosolova", linkedin = "https://www.linkedin.com/in/polina-mosolova/"),
   list(first_name = "Alexander", last_name = "Sauer"),
   list(first_name = "Yvy", last_name = "Truong", github = "YvyTr"),
-  list(first_name = "Manuel", last_name = "Neumann", linkedin = "manuel-neumann", github = "ManuelNeumann", twitter = "powi_manu")
-)                                                                  # To Do: Instagram
+  list(first_name = "Manuel", last_name = "Neumann", linkedin = "https://www.linkedin.com/in/manuel-neumann/", github = "ManuelNeumann", twitter = "powi_manu", instagram = "https://instagram.com/powi_manu")
+)                                                                  
 
 proj$published <- FALSE # set to true always before making a PR.
 
